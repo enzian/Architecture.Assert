@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microservice.Repositories.MongoDb\Microservice.Repositories.MongoDb.csproj" />
+    <ProjectReference Include="..\Microservice.Repositories\Microservice.Repositories.csproj" />
+    <ProjectReference Include="..\Microservice.Services\Microservice.Services.csproj" />
+  </ItemGroup>
+
+</Project>
