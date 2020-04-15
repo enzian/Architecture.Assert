@@ -6,9 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Buildalyzer.Workspaces" Version="2.2.0" />
+    <PackageReference Include="Buildalyzer.Workspaces" Version="2.6.0" />
     <PackageReference Include="FluentAssertions" Version="5.6.0" />
-    <PackageReference Include="Buildalyzer.Workspaces" Version="2.2.0" />
+    <PackageReference Include="Buildalyzer.Workspaces" Version="2.6.0" />
   </ItemGroup>
 
 </Project>
